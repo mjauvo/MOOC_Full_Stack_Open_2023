@@ -1,4 +1,4 @@
-# Full_Stack_Open_2023_FI
+# Full Stack Open 2023
 MOOC course during which e.g. React, Redux, NodeJS, MongoDB, GraphQL and TypeScript were discussed.
 
 ### Part 0: Fundamentals of Web apps
