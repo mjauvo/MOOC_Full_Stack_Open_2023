@@ -10,4 +10,3 @@ MOOC course during which e.g. React, Redux, NodeJS, MongoDB, GraphQL and TypeScr
 ### Part 6: Advanced state management
 ### Part 7: React router, custom hooks, styling app with CSS and webpack
 ### Part 8: GraphQL
-
