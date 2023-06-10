@@ -16,18 +16,22 @@ const Weather = ({capital}) => {
 
     useEffect(getCapitalWeather, [capital, api_key])
 
-    return (
-        <>
-        {weather.id ? (
-            <div>
+    if (weather.id) {
+        return (
+            <>
                 <strong>Weather in {capital}</strong><br/>
                 <span>Temperature: {weather.main.temp}&deg;C<br/></span>
                 <span>Wind: {weather.wind.speed} m/s</span><br/>
                 <img alt="weather" src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} />
-            </div>
-        ) : <div></div>}
-        </>
-    )
+            </>
+
+        )
+    }
+    else {
+        return (
+            <></>
+        )
+    }
 }
 
 export default Weather
